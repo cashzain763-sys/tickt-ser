@@ -521,7 +521,7 @@ io.on("connection", (socket) => {
 });
 
 mongoose
-  .connect("mongodb+srv://test:test@arab.dzdqr5o.mongodb.net/Ticket")
+  .connect("mongodb+srv://tic:08ZjfGgJFmVNIjS5@arab.dzdqr5o.mongodb.net/Ticket")
   .then((conn) =>
     server.listen(PORT, async () => {
       // await Order.deleteMany({})
